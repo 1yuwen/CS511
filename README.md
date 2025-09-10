@@ -17,3 +17,6 @@ Install dependencies:
  ```sh
    lake update
 ```
+
+## Lean file
+please check the ./CS511/hw_01.lean
