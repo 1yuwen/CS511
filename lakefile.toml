@@ -1,0 +1,14 @@
+name = "hw"
+version = "0.1.0"
+defaultTargets = ["hw"]
+
+[[lean_lib]]
+name = "Hw"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+
+[[lean_exe]]
+name = "hw"
+root = "Main"
