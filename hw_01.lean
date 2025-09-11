@@ -26,6 +26,6 @@ example {a b c : ℝ} (h1 : a + 2 * b + 3 * c = 7) (h2 : b + 2 * c = 3)
     a = (a + 2 * b + 3 * c) - 2 * (b + 2 * c) + c := by ring
     _ = 7 - 2 * (b + 2 * c) + c                   := by rw [h1]
     _ = 7 - 2 * 3 + c                             := by rw [h2]
-    _ = 1 + c                                     := by norm_num
+    _ = 1 + c                                     := by ring
     _ = 1 + 1                                     := by rw [h3]
-    _ = 2                                         := by norm_num
+    _ = 2                                         := by ring
